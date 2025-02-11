@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
 
 /* Week 3 Grid styles */
@@ -42,6 +43,26 @@
 }
 /* END Week 3 styles for GRID */
 
+/*Week 4 Carousel styles*/
+.carousel-item {
+    max-height:580px;
+    width: 100%;
+
+    p {
+        font-size: medium;
+        
+        margin: 0;
+    }
+    h5{
+        font-weight: bolder;
+    }
+}
+#labeltext{
+    background-color: #444343a9;
+    border: 1px solid black;
+    
+
+}
 
 /*GLOBAL*/
 body {
