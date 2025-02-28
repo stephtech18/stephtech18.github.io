@@ -75,18 +75,16 @@
 
 /*Week 7 styles*/
 
-.container {
-    grid-column: 4;
-    grid-row: 1;
-}
-
 .picmain {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
     grid-template-rows: 1fr;
-    padding: 50px;
     max-width: 2000px;
-    margin: auto;
+}
+
+.container {
+    grid-column: 2;
+    grid-row: 1;
 }
 
 .pictitle {
@@ -100,7 +98,7 @@
 .picwrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: .2em;
     max-width: 1500px;
 
